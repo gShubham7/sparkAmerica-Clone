@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon link -->
+    <link rel="icon" href="SPARK-America.png">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="./Style/peopleone_sign_in.css">
+    <!-- <link rel="stylesheet" href="./Style/registerPage.css"> -->
+    <title>People One Sign In</title>
+</head>
+<body>
+        <div>
+            <img  id="logo" src="https://portal.peopleonehealth.com/Content/images/people_one_logo.svg" alt="">
+        </div>
+        <div id="container">
+    <div id="signIn">
+        <form action="" id="form1">
+            <h2>SIGN IN</h2>
+            <label for="">Email Address</label><br>
+            <input type="email" id="email"><br>
+            <label for="" id="blakEmail"></label><br>
+            <label for="">Password</label><br>
+            <input type="password" id="password"><br>
+            <label for="" id="blakPassword"></label><br>
+            <label for="" id="forgot">Forgot your password ?</label><br>
+            <button id="submit" type="submit">SIGN IN</button>
+        </form>
+    </div>
+     <div id="signUp">
+          <form action="" id="form2">
+             <h2>CREATE ACCOUNT</h2>
+             <label for="">Enter your Email Address</label><br>
+             <input type="text" id="emailId"><br>
+             <label for="" id="blakEmailId"></label><br>
+             <div class="captcha">
+                <div class="spinner">
+                    <label>
+                        <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                        <span class="checkmark"><span>&nbsp;</span></span>
+                    </label>
+                </div>
+                <div class="text">
+                    I'm not a robot
+                </div>
+                <div class="captcha_logo">
+                    <img id="image_c" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/2048px-RecaptchaLogo.svg.png" />
+                    <span id="term" >Privacy Terms</span>
+                </div>
+            </div>
+             <button id="crt" type="submit">CREATE ACCOUNT</button>
+             <h3>Don't have a company email address?<span> Create your account with Member ID or SSN, Name and Birthdate instead.</span></h3>
+            </form>
+       </div>
+       
+    </div>
+    </div>
+    <div id='bottom'>
+    <h5>Need Help-Contact Support</h5>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvu3B_KwVW3DikR13IO3DRRf-8fvsl2GuTKw&usqp=CAU" alt="">
+    </div>
+</body>
+</html>
+<script src="./Script/peopleone_sign_in.js"></script>
